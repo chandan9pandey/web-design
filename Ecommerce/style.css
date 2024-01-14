@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* header css  */
+
+.header {
+	height: 70px;
+	width: 100%;
+	/* background-color: red; */
+	padding: 0px 8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 10%;
+	height: 70px;
+	/* background-color: yellow; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "futura";
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.navigation {
+	width: 30%;
+	height: 70px;
+	/* background-color: blue; */
+}
+
+.nav-links {
+	width: 100%;
+	height: 70px;
+	/* background-color: yellow; */
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "futura";
+	/* font-weight: bold; */
+	font-size: 17px;
+	color: #1d1d1d;
+}
+
+.nav-links > .nav-link > a {
+	color: #1d1d1d;
+	text-decoration: none;
+}
+
+.nav-links > .nav-link > i {
+	font-size: 20px;
+}
+
+.utils {
+	width: 12%;
+	height: 70px;
+	/* background-color: purple; */
+}
