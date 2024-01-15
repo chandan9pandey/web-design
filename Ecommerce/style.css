@@ -60,3 +60,143 @@
 	height: 70px;
 	/* background-color: purple; */
 }
+
+/* banner css  */
+
+.banner {
+	width: 100%;
+	height: 750px;
+	background-color: gray;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	/* background-color: red; */
+	background-image: url("./images/h1-slide-show-1_1_1.webp");
+	display: flex;
+	align-items: center;
+	padding-left: 20%;
+}
+
+.slide-details {
+	width: 27%;
+	padding: 40px;
+	/* background-color: red; */
+	font-family: "futura";
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 25px;
+}
+
+.slide-details > h1 {
+	font-size: 60px;
+}
+
+.btn {
+	padding: 12px 30px;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+
+/* featured section css  */
+
+.featured {
+	width: 100%;
+	padding: 10px 0px;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.featured-box-1 {
+	width: 33%;
+	height: 570px;
+	/* background-color: green; */
+	position: relative;
+}
+
+.featured-box-2 {
+	width: 33%;
+	height: 570px;
+	/* background-color: purple; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.featured-box-2-box-1 {
+	width: 100%;
+	height: 280px;
+	/* background-color: green; */
+	position: relative;
+}
+
+.featured-box-2-box-2 {
+	width: 49.5%;
+	height: 280px;
+	/* background-color: green; */
+	position: relative;
+}
+
+.featured-box-2-box-3 {
+	width: 49.5%;
+	height: 280px;
+	/* background-color: green; */
+	position: relative;
+}
+
+.featured-box-3 {
+	width: 33%;
+	height: 570px;
+	/* background-color: green; */
+	position: relative;
+}
+
+.bg-image {
+	width: 100%;
+	height: 100%;
+	/* background-color: yellow; */
+	overflow: hidden;
+}
+
+.bg-image > img {
+	width: 100%;
+	transition: 0.2s;
+}
+
+.featured-box-1:hover img,
+.featured-box-3:hover img {
+	transform: scale(1.1);
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	/* background-color: green; */
+	position: absolute;
+	display: flex;
+	padding: 5%;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.btn-white {
+	background-color: white;
+	border: 1px solid white;
+	color: #1d1d1d;
+	box-shadow: 0 0 3px lightgray;
+	z-index: 20;
+}
+
+.featured-box-1:hover img,
+.featured-box-3:hover img,
+.featured-box-2-box-1:hover img,
+.featured-box-2-box-2:hover img,
+.featured-box-2-box-3:hover img {
+	transform: scale(1.1);
+}
